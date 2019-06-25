@@ -9,13 +9,31 @@ body {
 
 #add-cartoon-form {
     float: right;
+
 }
 button {
+    background-color: rgb(52, 57, 61);
     margin: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+button:hover {
+    background-color: rgb(89, 97, 104);
+  }
 #addText {
     color: #ffffff;
 }
 #add-cartoon-form {
     margin: 20px;
+}
+#cartoon-contents {
+    float: left;
+    width: 900px;
 }
