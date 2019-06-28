@@ -87,16 +87,16 @@ function renderButtons() {
 
 
 
-// This function handles events where a movie button is clicked
+// This function handles events where a cartoon button is clicked
 $("#add-cartoon").on("click", function (event) {
     event.preventDefault();
     // This line grabs the input from the textbox
     const cartoon = $("#cartoon-input").val().trim();
 
-    // Adding movie from the textbox to our array
+    // Adding cartoon from the textbox to our array
     topics.push(cartoon);
 
-    // Calling renderButtons which handles the processing of our movie array
+    // Calling renderButtons which handles the processing of our cartoon array
     renderButtons();
 });
 
